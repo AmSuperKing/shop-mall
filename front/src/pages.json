@@ -1,0 +1,265 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+    }
+  },
+	"pages": [{
+		"path": "pages/index/index",
+    "name": "首页",
+		"style": {
+			"navigationBarTitleText": "合和集采服务平台-首页"
+		}
+	}, {
+		"path": "pages/classify/classify",
+    "name": "商品分类",
+		"style": {
+			"navigationBarTitleText": "商品分类"
+		}
+	}, {
+		"path": "pages/enquiry/enquiry",
+    "name": "商品询价列表",
+		"style": {
+			"navigationBarTitleText": "商品询价列表"
+		}
+	}, {
+		"path": "pages/shopCar/shopCar",
+    "name": "购物车",
+		"style": {
+			"navigationBarTitleText": "我的购物车"
+		}
+	}, {
+		"path": "pages/my/my",
+    "name": "我的",
+		"style": {
+			"navigationBarTitleText": "用户-我的"
+		}		
+	}, {
+		"path": "pages/my/myCollection/myCollection",
+    "name": "我的收藏",
+		"style": {
+			"navigationBarTitleText": "用户-我的收藏"
+		}		
+	}, {
+		"path": "pages/my/invoicingRequisitions/invoicingRequisition",
+    "name": "发票申请",
+		"style": {
+			"navigationBarTitleText": "用户-发票申请"
+		}		
+	}, {
+		"path": "pages/my/invoicingRequisitions/invoicingParsonalHeadUp",
+    "name": "",
+		"style": {
+			"navigationBarTitleText": "用户-发票申请-个人抬头"
+		}		
+	}, {
+		"path": "pages/my/invoicingRequisitions/invoicingCompanyHead",
+    "name": "发票申请-公司抬头",
+		"style": {
+			"navigationBarTitleText": "用户-发票申请-公司抬头"
+		}		
+	}, {
+		"path": "pages/my/invoicingRequisitions/invoicingqualifications",
+    "name": "发票申请-开通申请",
+		"style": {
+			"navigationBarTitleText": "用户-发票申请-开通申请"
+		}		
+	}, {
+		"path": "pages/my/coupon/coupon",
+    "name": "优惠券",
+		"style": {
+			"navigationBarTitleText": "用户-优惠券"
+		}		
+	}, {
+		"path": "pages/my/component/myDetail",
+    "name": "个人信息",
+		"style": {
+			"navigationBarTitleText": "用户-我的个人信息"
+		}
+	}, {
+		"path": "pages/my/component/setPassword",
+    "name": "用户-修改密码",
+		"style": {
+			"navigationBarTitleText": "用户-修改密码"
+		}
+	}, {
+		"path": "pages/search/search",
+    "name": "商品搜索",
+		"style": {
+			"navigationBarTitleText": "商品搜索"
+		}
+	}, {
+		"path": "pages/search/result",
+    "name": "搜索结果",
+		"style": {
+			"navigationBarTitleText": "商品搜索"
+		}
+	}, {
+		"path": "pages/goodsType/goodsType",
+    "name": "",
+		"style": {}
+	}, {
+		"path": "pages/hotSale/hotSale",
+    "name": "爆款专区",
+		"style": {
+      "navigationBarTitleText": "爆款专区"
+    }
+	}, {
+		"path": "pages/topSelling/topSelling",
+    "name": "热销排行",
+		"style": {
+			"navigationBarTitleText": "热销排行"
+		}
+	}, {
+    "path": "pages/newProduct/index",
+    "name": "新品首发",
+    "style": {
+    	"navigationBarTitleText": "新品首发"
+    }
+  }, {
+		"path": "pages/messageCenter/messageCenter",
+    "name": "消息中心",
+		"style": {
+			"navigationBarTitleText": "消息中心"
+		}
+	}, {
+		"path": "pages/productDetail/detail",
+    "name": "商品详情",
+		"style": {
+			"navigationBarTitleText": "商品详情"
+		}
+	}, {
+		"path": "pages/productType/index",
+    "name": "产品分类",
+		"style": {
+			"navigationBarTitleText": "产品分类"
+		}
+	}, {
+    "path": "pages/my/component/orderDetail",
+    "name": "订单",
+    "style": {
+      "navigationBarTitleText": "订单"
+    }
+  }, {
+    "path": "pages/orderDetail/index",
+    "name": "订单详情",
+    "style": {
+      "navigationBarTitleText": "订单详情"
+    }
+  }, {
+    "path": "pages/comment/my",
+    "name": "我的评价",
+    "style": {
+      "navigationBarTitleText": "我的评价"
+    }
+  }, {
+    "path": "pages/afterSale/index",
+    "name": "售后",
+    "style": {
+      "navigationBarTitleText": "售后"
+    }
+  }, {
+    "path": "pages/browseList/index",
+    "name": "我的足迹",
+    "style": {
+      "navigationBarTitleText": "我的足迹"
+    }
+  }, {
+    "path": "pages/manaAddress/index",
+    "name": "地址管理",
+    "style": {
+      "navigationBarTitleText": "地址管理"
+    }
+  }, {
+    "path": "pages/manaAddress/add",
+    "name": "新增地址",
+    "style": {
+      "navigationBarTitleText": "新增地址"
+    }
+  }, {
+    "path": "pages/manaAddress/edit",
+    "name": "修改地址",
+    "style": {
+      "navigationBarTitleText": "修改地址"
+    }
+  }, {
+    "path": "pages/help/index",
+    "name": "帮助中心",
+    "style": {
+      "navigationBarTitleText": "帮助中心"
+    }
+  }, {
+    "path": "pages/help/contact",
+    "name": "联系方式",
+    "style": {
+      "navigationBarTitleText": "联系方式"
+    }
+  }, {
+    "path": "pages/account/login",
+    "name": "用户登录",
+    "style": {
+      "navigationBarTitleText": "用户登录"
+    }
+  }, {
+    "path": "pages/account/register",
+    "name": "用户注册",
+    "style": {
+      "navigationBarTitleText": "用户注册"
+    }
+  }, {
+    "path": "pages/account/resetPassword",
+    "name": "修改密码",
+    "style": {
+      "navigationBarTitleText": "修改密码"
+    }
+  }, {
+    "path": "pages/account/agreement",
+    "name": "使用协议",
+    "style": {
+      "navigationBarTitleText": "使用协议"
+    }
+  }, {
+    "path": "pages/404/404",
+    "name": "404",
+		"style": {
+			"navigationBarTitleText": "合和集采服务平台"
+		}
+	}],
+	"tabBar": {
+    "color": "#848484",
+    "selectedColor": "#008461",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "static/icons/home.png",    
+      "selectedIconPath": "static/icons/home_active.png"
+    }, {
+      "pagePath": "pages/classify/classify",
+      "text":"分类",
+      "iconPath": "static/icons/type.png",    
+      "selectedIconPath": "static/icons/type_active.png"
+      
+    }, {
+      "pagePath": "pages/enquiry/enquiry",
+      "text": "询价篮",
+      "iconPath": "static/icons/enquiry.png",    
+      "selectedIconPath": "static/icons/enquiry_active.png" 
+    }, {
+      "pagePath": "pages/shopCar/shopCar",
+      "text": "购物车",
+      "iconPath": "static/icons/shopCar.png",    
+      "selectedIconPath": "static/icons/shopCar_active.png"
+    }, {
+      "pagePath":"pages/my/my",
+      "text":"我的",
+      "iconPath":"static/icons/my.png",    
+      "selectedIconPath": "static/icons/my_active.png"
+    }]
+  },
+	"globalStyle": {
+		"navigationStyle": "custom"
+	}
+}

@@ -1,0 +1,12 @@
+$theme-color: #009C73;
+$theme-color-alpha3: rgba(0, 132, 97, .3);
+$sub-theme-color: #14aa79;
+$green-alpha: #89c6b6;
+$alpha-green: rgba(5, 134, 100, .3);
+
+:export {
+  themeColor: $theme-color;
+  themeColorAlpha3: $theme-color-alpha3;
+  subThemeColor: $sub-theme-color;
+  alphaGreen: $alpha-green;
+}
